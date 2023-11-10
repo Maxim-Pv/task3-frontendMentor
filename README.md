@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Maxim-Pv/task3-frontendMentor)
-- Live Site URL: [](https://maxim-pv.github.io/task3-frontendMentor/)
+- Solution URL: [solution](https://github.com/Maxim-Pv/task3-frontendMentor)
+- Live Site URL: [live-site](https://maxim-pv.github.io/task3-frontendMentor/)
 
 ## My process
 
