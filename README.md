@@ -34,13 +34,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](https://github.com/Maxim-Pv/task3-frontendMentor/blob/master/screenshots/desktop.jpeg)
+[desktop-design-empty](https://github.com/Maxim-Pv/task3-frontendMentor/blob/master/screenshots/desktop-design-empty.jpeg)
+[desktop-design-completed](https://github.com/Maxim-Pv/task3-frontendMentor/blob/master/screenshots/desktop-design-completed.jpeg)
+[active-states](https://github.com/Maxim-Pv/task3-frontendMentor/blob/master/screenshots/active-states.jpeg)
+[mobile-design](https://github.com/Maxim-Pv/task3-frontendMentor/blob/master/screenshots/mobile-design.jpeg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/Maxim-Pv/task3-frontendMentor)
+- Live Site URL: [](https://maxim-pv.github.io/task3-frontendMentor/)
 
 ## My process
 
@@ -56,7 +60,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Maxim-Pv](https://www.your-site.com)
+- Website - [Maxim-Pv](https://github.com/Maxim-Pv)
 - Frontend Mentor - [@Maxim-Pv](https://www.frontendmentor.io/profile/Maxim-Pv)
 - Linkedin - [Maxim Pavlov](https://www.linkedin.com/in/maksim-pavlov-12b22528b/?locale=en_US)
 
