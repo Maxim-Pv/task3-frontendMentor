@@ -104,15 +104,16 @@ body {
     cursor: pointer;
 }
 
-.percent__btn:focus {
-    background-color: hsl(172, 67%, 45%);
+.percent__btn:hover,
+.custom__input:hover,
+.btn-reset:hover {
+    background-color: hsl(185, 41%, 84%);
     color: hsl(183, 100%, 15%);
 }
 
-.percent__btn:active,
-.custom__input:active,
-.btn-reset:active {
-    background-color: hsl(185, 41%, 84%);
+.percent__btn:focus {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
 }
 
 .custom__input {
@@ -192,6 +193,14 @@ body {
 .btn-reset-ready,
 .btn-reset:focus {
     background-color: hsl(172, 67%, 45%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
 
 @media (max-width: 950px) {
