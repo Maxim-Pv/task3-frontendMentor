@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5em auto;
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 32px 32px 32px 50px;
+    width: 922px;
+    height: 482px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    gap: 50px;
+    background-color: white;
+}
+
+
+/* Section input */
+
+.section__input {  
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: hsl(186, 14%, 43%);
+}
+
+.percent__container {
+    list-style-type: none;
+}
+
+.section__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input,
+.custom__input {
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    caret-color: #9EBBBD;
+    color: hsl(183, 100%, 15%);
+}
+
+.form__input {
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 15px; 
+    background-image: url(../images/icon-dollar.svg);
+    background-position: center left 20px;
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+
+.form__input:focus,
+.custom__input:focus {
+    outline: 2px solid hsl(172, 67%, 45%);
+}
+
+.form__input::placeholder,
+.custom__input::placeholder {
+    color: #9EBBBD;
+}
+
+.form__input::-webkit-inner-spin-button,
+.form__input::-webkit-outer-spin-button,
+.custom__input::-webkit-inner-spin-button,
+.custom__input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.percent__container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.percent__btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.percent__btn:focus {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.percent__btn:active,
+.custom__input:active,
+.btn-reset:active {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.custom__input {
+    text-align: center;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.input-person {
+    background-image: url(../images/icon-person.svg);
+}
+
+.alert-label {
+    display: none;
+    color: #ff0000a6;
+}
+
+.alert-input {
+    border: 2px solid #ff0000a6;
+}
+
+/* Section output */
+
+.section__output {
+    width: 51%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: hsl(183, 100%, 15%);
+}
+
+.output__count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.output__text {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.output-heading {
+    color: hsl(189, 41%, 97%);
+}
+
+.output__value {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    color: hsl(172, 67%, 45%);
+}
+
+.output-person {
+    color:  hsl(186, 14%, 43%);
+}
+
+.btn-reset {
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(183, 100%, 15%);
+    cursor: pointer;
+}
+
+.btn-reset-ready,
+.btn-reset:focus {
+    background-color: hsl(172, 67%, 45%);
+}
+
+@media (max-width: 950px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .output__count {
+        display: block;
+    }
+
+    .custom__input {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .container {
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    .container {
+        padding: 32px;
+        height: unset;
+        display: block;
+    }
+
+    .section__input {
+        width: 100%;
+    }
+
+    .section__output {
+        width: 100%;
+        height: 260px;
+        justify-content: space-between;
+        padding: 40px 23px 23px 23px;
+    }
+
+    .percent__container {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 30px;
+    }
+
+    .percent__btn,
+    .custom__input {
+        width: 148px;
+    }
+
+    .form__input {
+        margin-bottom: 30px;
+    }
+
+    .output__count {
+        display: flex;
+    }
+
+    .output__value {
+        font-size: 34px;
+    }
+
+}

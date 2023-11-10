@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+  </style>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="./images/logo.svg" alt="logo">
+  </div>
+  <main class="container">
+    <section class="section__input">
+      <form action="" class="section__form">
+        <label for="input">Bill</label>
+        <input class="form__input" id="input" type="number" placeholder="0">
+      </form>
+      <div>
+        <span>Select Tip %</span>
+        <ul class="percent__container">       
+          <li>
+            <button class="percent__btn" value="0.05">5%</button>
+          </li>
+          <li>
+            <button class="percent__btn" value="0.1">10%</button>
+          </li>
+          <li>
+            <button class="percent__btn" value="0.15">15%</button>
+          </li>
+          <li>
+            <button class="percent__btn" value="0.25">25%</button>
+          </li>
+          <li>
+            <button class="percent__btn" value="0.50">50%</button>
+          </li>
+          <li>
+            <input class="custom__input" type="number" placeholder="Custom">
+          </li>
+        </ul>
+      </div>
+      <form action="" class="section__form">
+        <div class="labels">
+          <label for="inputPeople">Number of People</label>
+          <label class="alert-label" for="inputPeople">Can't be zero</label>         
+        </div>
+
+        <input class="form__input input-person" id="inputPerson" type="number" placeholder="0">
+      </form>
+    </section>
+
+    <section class="section__output">
+      <div class="output__count">
+        <div class="output__text">
+          <span class="output-heading"> Tip Amount</span>
+          <span class="output-person">/ person</span>
+        </div>   
+        <span class="output__value" id="tipAmount" >$0.00</span>
+      </div>
+
+      <div class="output__count">
+        <div class="output__text">
+          <span class="output-heading"> Total</span>
+          <span class="output-person">/ person</span>
+        </div>
+        <span class="output__value" id="total" >$0.00</span>
+      </div>
+      <button class="btn-reset">RESET</button>
+    </section>
+        
+  
+  </main>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Maxim-Pv">Maxim</a>.
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
